@@ -1,0 +1,6 @@
+ravi.upadhyay.one {
+    handle_path
+    root * /srv/www/resume
+    file_server
+    try_files {path} /index.html
+}
