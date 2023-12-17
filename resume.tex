@@ -1,0 +1,289 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+% modern themes
+\moderncvstyle{banking} 
+\moderncvcolor{blue}
+% character encoding
+\usepackage[utf8]{inputenc}
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\usepackage{import}
+% personal data
+\name{Ravi}{Upadhyay}
+\title{Resume}
+\address{Bengaluru}{Karnataka}
+\phone[mobile]{8967224829}               
+\email{ravi.upadhyay.pi@gmail.com}                    
+\homepage{github.com/ravi-upadhyay-pi}
+% ---
+\begin{document}
+\makecvtitle
+\small
+Passionate about technology and maths. Love to fiddle with new technologies. Strong technical kills for working in a team and successfully completing a project. Though I am better as a backend engineer, I love front-end more.
+% ---
+\section{Experience}
+\vspace{6pt}
+\begin{itemize}
+  \item
+    \cventry
+    {August 2021--Current}
+    {Full Stack Engineer - L4}
+    {Google}
+    {Bengaluru}
+    {}
+    {}
+    \vspace {5pt}
+    At Google I worked as a Full Stack engineer. I worked in Flex team. Our team developed tools to manage and increase the efficiency of dynamic allocation and resource sharing for entire Google; be it GMail, Maps, Youtube and Google Cloud.
+    \vspace {2pt}
+    \begin {itemize}
+      \item
+        \textbf {Responsibilities}
+        (a) the ownership of our code-base along with one other colleague. All the code reviews needed approval from owners before being merged; (b) maintaining the reliability for the products we owned; (c) unofficially I had become a member whom others approached for solving or mitigating tricky bugs; (d) organizing learning sessions; (e) on boarding our team to google's on-call system and to maintain it; (f) and last but the most important responsibility was to work on implementing feature requests on which I spent most of the time.
+      \vspace {2pt}
+      \item
+        \textbf {Simplification for tiered resources}
+        Worked in the simplification effort for tiered resources. Earlier tiered resources were designed in a way that caused inconsistency. Contributed in the UX and backend design for exposing the functionality; unblocking team in critical blockers by providing solutions and workarounds; and doing the backend and frontend coding.
+      \vspace {2pt}
+      \item
+        \textbf {Optimizing slow pages}
+        Our team also was responsible for web applications to show some very complex data and visualizations for the metrics on resources. After some point those pages became very slow and it was becoming infeasible to add anything more to it. I worked on this and optimized the views by fixing multiple things. The optimization gain were 10 times.latex should \item content be placed in braces?
+      \vspace {2pt}
+      \item
+        \textbf {Customer Engagement}
+        Our users were Engineers, SREs and Resource managers. We used to have frequent conversations on their requirements and issues. We had customers with very strong opinions. I had to frequently balance out individual needs so that our products were built to be useful for almost everyone and not just the requester.
+      \item
+      \vspace {2pt}
+        \textbf {Reporting for Resource Requests}
+        Worked on implementation of reporting for resource requests. The goal was to make the reporting dashboard as flexible as possible by leveraging SQL query creation with OLAP cube strategies to show the data with dynamic filtering, grouping and aggregation.
+    \end {itemize}
+    \vspace {6pt}
+  \item
+    \cventry
+    {June 2020--July 2021}
+    {Software Development Engineer - II}
+    {Amazon}
+    {Bengaluru}
+    {}
+    {}
+    \vspace {5pt}
+    Worked at Amazon in the retail platform's High Consideration Tech Product team. In HCTP team, I worked on the Interactive Buying Guide and other projects.
+    \vspace {2pt}
+    \begin {itemize}
+      \item 
+        \textbf{Interactive Buying Guide}
+        This page exists for multiple categories such as smartphone, laptop, water purifier, etc. Worked as lead on this project. Added multiple features to this page like Dynamic Refinements, Blocking Refinements, Single Select, supporting video widgets with raw url, etc. Expanded it to marketplaces worldwide, improved the unit tests coverage and other functionality. Made the project developer friendly by enabling service to run in development environment.
+        \vspace {2pt}
+      \item 
+        \textbf{Development CI}
+        Certain Amazon Retail applications can not be deployed on local system because of certain limitations. And deployment for testing the changes were done in a very non-automated and backward manner. During a hackathon, worked on creating a script integrated as git hooks, which could automate the steps of pushing local changes to development server, building it there, deploying it, and displaying the logs using just a command or at ost-commit without leaving the IDE.
+        \vspace {2pt}
+      \item
+        \textbf{Search Page Widget for Buying Guide}
+        The link for the Interactive Buying Guide page, comes on the search page. Previously, hard coded keywords were mapped to a buying guide and on search of that keyword the link to Buying Guide was shown. Implemented a service, which could map any arbitrary user search query intelligently to a buying guide, using the query's understanding. There was strict restriction on latency of the request to be < 65ms. Implemented the service to give result with p99 latency = 6ms. This was one of our team's first project to use the AWS infrastructureinstead of the legacy Amazon Retail Infrastructure.
+        \vspace {2pt}
+      \item 
+        \textbf{Generic Configuration Editor}
+        Designed and implemented a Generic Configuration Editor. The service provided flexibility to use storage backend options, audit, access control and reusable validations for configuration entities. This service was designed such that configuration for a new service could be on-boarded to it without writing any code and with all the features available on the go. The major benefit was that business team could directly access this service to do onfiguration changes on a user friendly UI.
+        \vspace {2pt}
+      \item 
+        \textbf{Guiding Other Engineers}
+        For major portion I worked independently at Amazon, but for some projects had to managed and mentor others. Guided a Support Engineer, for enabling videos on Buying Guide page for regions where CDN was not available. Guided a FEE-II for the front-end implementation of Generic Configuration Editor. This was the first instance where I was able to put my front end knowledge to some use in Production. Other than this, guided QAE for the testing of the services.
+        \vspace {2pt}
+      \item 
+        \textbf{On-Call Responsibilities}
+        Under our team, there were multiple projects. I didn't have much context on all the service, especially during the first on-call week, when I was new. Even then, during the on-call tenure, apart from monitoring services for failures, for one of the issue which was treated as transient issue by service owner, I debugged it, found the root cause, finalised the correct behaviour with the PM and pushed CR. Debugged another such tricky and long pending mobile app issue during the second on-call tenure.
+    \end {itemize}
+    \vspace{6pt}
+  \item
+    \cventry
+    {October 2018--May 2020}
+    {Software Development Engineer}
+    {Moveinsync}
+    {Bengaluru}
+    {}
+    {}
+    \vspace {5pt}
+    Moveinsync provides SAAS solution for companies providing cab and shuttle services to their employees.
+    \vspace {1pt}
+    \begin {itemize}
+      \item 
+        Introduced the use of systemd for service management.
+        \vspace {1pt}
+      \item  
+        Started the use of better and consistent git branch management.
+        \vspace {1pt} 
+      \item 
+        Added Postgresql read replica usage in spring boot server with minimal changes to the service code.
+        \vspace {1pt} 
+      \item 
+        Added the feature of showing cab routes that used intermediate drop and pickup points.
+        \vspace {1pt} 
+      \item 
+        Worked as the single backend developer for the newly launched GetToWork (B2C) project.
+        \vspace {1pt}
+        \begin {itemize}
+          \item  
+            Implemented packages and subscriptions for buying rides with validity.
+            \vspace {1pt}
+          \item  
+            Integration with Payment systems for money transactions. Created Email and PDF templates for the invoice of purchase. The content was designed with rich visual design.
+            \vspace {1pt} 
+          \item 
+            Created a wallet (for points) and referral system. Implemented a generic Reward system with source of reward and the reward implementation decoupled. This made addition of new source or adding a new kind of reward very easy.
+            \vspace {1pt} 
+          \item 
+            Management for all the items like packages, wallets, referrals, rewards.
+            \vspace {1pt} 
+          \item 
+            Provided Production support added many other smaller features like Truecaller integration, use of ELK for log storage, etc.
+        \end {itemize}
+      \item
+        Implemented route sequencing algorithm for routes with around 14 people.
+    \end {itemize}
+  \item
+    \vspace{6pt}
+    \cventry
+    {March 2018--September 2018}
+    {Backend Developer}
+    {Skillate}
+    {Bengaluru}
+    {}
+    {}
+    \vspace{5pt}
+    Skillate is a recruitment platform which provides AI services for the initial shortlisting phase of recruitment process and resume parsing.
+    \vspace{1pt}
+    \begin{itemize}
+      \item  
+        Upgraded all the service components to docker images for easy swarm like deployment on cloud platforms.
+        \vspace{1pt}
+      \item  
+        Created a spring server application which could import/export data from SAP's Successfactors using OData apis. Published the application on cloudfoundry. Used 
+        \vspace{1pt}liquibase and hibernate for database migration and connection.
+      \item  
+        Linkedin and Naukri mail integration, so that applications received via email by a recruiter can be automatically parsed and added as a new candidate.
+        \vspace{1pt}
+      \item  
+        Made resume parser to be generic in term of resume format and source, and a way to merge information from different sources.
+        \vspace{1pt}
+      \item  
+        Worked on Oracle's Taleo integration with soap apis. Created backend for career portals where candidates can apply to jobs and search for jobs matching them.
+        \vspace{1pt}
+      \item  
+        Improved report generation. Earlier the report generation was real-time and each request was taking a lot of time to complete and sometimes timed-out.
+        \vspace{1pt}
+      \item  
+        Improved syncing logic from sources such as Taleo and Successfactors, so that on disruption the syncing could resume from where it was disrupted earlier.
+        \vspace{1pt}
+    \end{itemize}
+    \vspace{6pt}
+  \item
+    \cventry
+    {2015--2016}
+    {Software Engineer, StorSimple}
+    {Microsoft}
+    {Bengaluru}
+    {}
+    {}
+    \vspace{5pt}
+    StorSimple provides storage device which can tier it's data to cloud and classifies data as hot or cold and keeps hot data locally. Further differentiation happened for deciding on SSD vs HDD storage.
+    \begin{itemize}
+      \item
+        Worked on support package flow. Created minute filters for type of support package needed. Automated flow for support package creation, so that on any indication of malfunction or defect, developers can get logs to correct it, without requiring customer's involvement.
+        \vspace{1pt}
+      \item
+        Improved documentation for enabling other developers to test locally by creating the device locally and configuring it.
+        \vspace{1pt}
+      \item
+        Holistic improvement in test flow and report generation, like breakdown of steps for all tests, failure steps, number of test failures because of a step shared by the tests, past 5 days record for that test, mention of test owners whose tests failed.
+        \vspace{1pt}
+      \item
+        Worked on implementing architecture for DataManager where a swarm of StorSimple virtual device would be brought up for data transformation and processing. This involved managing secrets flow and VM creation with proper configuration.
+        \vspace{1pt}
+    \end{itemize}
+\end{itemize}
+% --- \end-section{Experience}
+\section{Education}
+\vspace{5pt}
+\subsection{Academic Qualifications}
+\vspace{5pt}
+\begin{itemize}
+  \item
+    \cventry
+    {2010--2015}
+    {Master of Science}
+    {IIT Kharagpur}
+    {Kharagpur, West Bengal}
+    {Mathematics and Computing, 7.8 GPA}
+    {}
+    \vspace{7pt}
+  \item
+    \cventry
+    {2008--2010}
+    {General rank 3054 in IITJEE. 88.6\% in SSCE}
+    {FIITJEE}
+    {Patna}
+    {}
+    {}
+    \vspace{7pt}
+  \item
+    \cventry
+    {2008}
+    {86.8\% in SSE}
+    {Army School}
+    {Danapur, Patna}
+    {}
+    {}
+\end{itemize}
+\vspace{8pt}
+% --- \end-subsection{Education}
+\subsection{Notable Projects}
+\vspace{5pt}
+\begin{itemize}
+  \item
+    \textbf{Masters Project:}
+    \textit{Parallel implementation of Quadratic Sieve}
+    \vspace{2pt}
+    \small
+    This was a self educating project to get a good understanding of cryptography's algorithms and other implementation details. I implemented a parallel algorithm for factorization using quadratic sieve approach.
+    \vspace{5pt}
+  \item
+    \textbf{Bachelors Project:}
+    \textit{Discrete Fourier Transformation}
+    \vspace{2pt}
+    \small
+    Implemented DFT (discrete fourier transform). Discrete fourier transform expresses any signal as sum of many (digital) sinusoidal signals. Understood various applications of this approach for working with analog data sources and how exactly it helps. Some of it's usages are filtering, amplifying sounds or recognizing objects in images.
+    \vspace{5pt}
+  \item
+    \textbf{Internship Project:}
+    \textit{Essential Cryptography}
+    \vspace{2pt}
+    \small
+    Implemented and understood basic cryptograpic methods. Basic loopholes on some of encryption methods and their fix.
+    \vspace{5pt}
+  \item
+    \textbf{Denoise Project:}
+    \textit{Using fuzzy logic to remove noise from image}
+    \vspace{5pt}
+  \item
+    \textit{Organizer and problem setter for an online programming competition in college}
+\end{itemize}
+% --- \end-subsection{Notable Projects}
+\section{Technical and Personal skills}
+\vspace{6pt}
+\begin{itemize}
+  \item
+    \textbf{Programming Languages}
+    \textit{Proficient in:}
+    C, C++, Python, Java, JavaScript, Typescript, HTML, CSS, SQL, C\#.
+    \textit{Fiddled with:}
+    Assembly Language, Haskell, Rust, PHP, powershell.
+    \vspace{6pt}
+  \item 
+    \textbf{Frameworks and Softwares}
+    Azure Cloud, Spring, hibernate, undertow, express, docker, git, react, angular, cloudfoundry, vertx, jooq, liquibase, mongodb, mysql, rabbitmq.
+    \vspace{6pt}
+  \item
+    \textbf{Other}
+    Penchant for solving algorithmic problems. Solved most popular 100 problems on spoj. Love to read novels and meditate.
+\end{itemize}
+% --- \end-section{Technical and Personal skills}
+\end{document}
