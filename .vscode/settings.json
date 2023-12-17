@@ -1,5 +1,6 @@
 {
     "editor.rulers": [100],
+    "editor.wordWrap": "on",
     "editor.formatOnSave": false,
     "files.eol": "\n",
 }
